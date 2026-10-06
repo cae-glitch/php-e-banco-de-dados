@@ -2,7 +2,6 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$conexao = new mysqli($servidor, $usuario, $senha, "cadastro");
+$conexao = new mysqli($servidor, $usuario, $senha, "cadasto");
 $conexao->set_charset("utf8");
-echo "Conectado com sucesso!";
 ?>
